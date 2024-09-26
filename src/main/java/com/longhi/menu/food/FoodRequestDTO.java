@@ -1,0 +1,6 @@
+package com.longhi.menu.food;
+
+import java.math.BigDecimal;
+
+public record FoodRequestDTO(String title, String image, BigDecimal price) {
+}

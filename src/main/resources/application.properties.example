@@ -4,3 +4,7 @@ spring.application.name=menu
 spring.datasource.url=jdbc:postgresql://localhost:5432/food
 spring.datasource.username=DB_USER
 spring.datasource.password=DB_PASSWORD
+spring.jpa.show-sql=true
+
+# Permite que o Hibernate crie ou atualize o esquema automaticamente com base nas suas entidades.
+spring.jpa.hibernate.ddl-auto=update
